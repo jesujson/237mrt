@@ -6,8 +6,6 @@ import { life } from "world"
 
 life.findOne({people: "237mrt"}, async(err, res) => {
     if(err) return console.error(err)
-
-    
         
     if(res) return res
     else{
